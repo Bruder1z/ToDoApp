@@ -13,7 +13,7 @@ export class AppComponent {
     arrayDeTarefas: Tarefa[] = [];
     apiURL : string;
     constructor(private http: HttpClient) {
-        this.apiURL = 'https://apitodoapp-silk.vercel.app/'
+        this.apiURL = 'https://api-kappa-six-58.vercel.app/'
 ;
         this.READ_tarefas();
     }
